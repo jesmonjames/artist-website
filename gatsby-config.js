@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
-      // See the theme's README for all available options
+      // See the theme's README for all available options ..
       options: {
         name: 'Jesmon James',
         location: 'India',
@@ -25,8 +25,8 @@ module.exports = {
             href: `https://www.instagram.com/jesmonjameskandathil/`
           },
           {
-            title: `Twitter`,
-            href: `https://twitter.com/Jesmon_KJ`
+            title: `YouTube`,
+            href: `https://www.youtube.com/channel/UCP8cRslGDjbL2mqedHu_blA`
           }
         ],
         showThemeAuthor: false,
