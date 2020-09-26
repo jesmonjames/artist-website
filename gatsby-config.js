@@ -6,13 +6,27 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Jesmon James - Digital Artist/Illustrator`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: 'Jesmon James',
+        location: 'India',
+        socialMedia: [
+          {
+            title: `Instagram`,
+            href: `https://www.instagram.com/jesmonjameskandathil/`
+          },
+          {
+            title: `Twitter`,
+            href: `https://twitter.com/Jesmon_KJ`
+          }
+        ],
+        showThemeAuthor: false,
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -24,9 +38,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emilia - @lekoarts/gatsby-theme-emilia`,
-        short_name: `Emilia`,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
+        name: `Jesmon James`,
+        short_name: `Jesmon`,
+        description: `Jesmon James is a Digital Artist/Illustrator based in Kochi`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#3182ce`,
