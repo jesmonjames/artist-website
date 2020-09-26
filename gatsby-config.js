@@ -9,6 +9,7 @@ module.exports = {
     siteTitle: `Jesmon`,
     siteTitleAlt: `Jesmon James - Digital Artist/Illustrator`,
     siteHeadline: `Jesmon James - Digital Artist/Illustrator`,
+    siteUrl: `https://jesmonkj.vercel.app`,
     siteDescription: `Hello am Jesmon, I am an Artist, Graphic designer, Web Developer & a Photographer based on Kochi in India`,
   },
   plugins: [
